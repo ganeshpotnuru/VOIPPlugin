@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin id="cordova-plugin-voip" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>
+		VOIPPlugin
+	</name>
+	<js-module name="VOIPPlugin" src="www/VOIPPlugin.js">
+		<clobbers target="VOIPPlugin" />
+	</js-module>
+	<platform name="ios">
+		<config-file parent="/*" target="config.xml">
+			<feature name="VOIPPlugin">
+				<param name="ios-package" value="VOIPPlugin" />
+			</feature>
+		</config-file>
+		<source-file src="src/ios/VOIPPlugin.m" />
+	</platform>
+</plugin>

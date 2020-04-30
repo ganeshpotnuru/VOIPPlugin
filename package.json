@@ -1,0 +1,25 @@
+{
+  "name": "VOIPPlugin",
+  "version": "1.0.0",
+  "description": "Used to create voip notifications in iOS",
+  "cordova": {
+    "id": "cordova-plugin-voip",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganeshpotnuru/VOIPPlugin.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Ganesh Potnuru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ganeshpotnuru/VOIPPlugin/issues"
+  },
+  "homepage": "https://github.com/ganeshpotnuru/VOIPPlugin#readme"
+}
